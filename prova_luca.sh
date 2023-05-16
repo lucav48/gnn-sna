@@ -1,0 +1,6 @@
+python3 -u node_class.py --data cornell --epoch 100 --mod_w 0 --layer 3 --w_att 0.001 --w_fc2 0.0 --w_fc1 0.001 --dropout 0.7 --lr_fc 0.01 --lr_att 0.01 --layer_norm 1 --dev 0 
+python3 -u node_class.py --data cornell --epoch 100 --mod_w 0.1 --layer 3 --w_att 0.001 --w_fc2 0.0 --w_fc1 0.001 --dropout 0.7 --lr_fc 0.01 --lr_att 0.01 --layer_norm 1 --dev 0 
+python3 -u node_class.py --data cornell --epoch 100 --mod_w 0.2 --layer 3 --w_att 0.001 --w_fc2 0.0 --w_fc1 0.001 --dropout 0.7 --lr_fc 0.01 --lr_att 0.01 --layer_norm 1 --dev 0 
+python3 -u node_class.py --data cornell --epoch 100 --mod_w 0.3 --layer 3 --w_att 0.001 --w_fc2 0.0 --w_fc1 0.001 --dropout 0.7 --lr_fc 0.01 --lr_att 0.01 --layer_norm 1 --dev 0 
+python3 -u node_class.py --data cornell --epoch 100 --mod_w 0.4 --layer 3 --w_att 0.001 --w_fc2 0.0 --w_fc1 0.001 --dropout 0.7 --lr_fc 0.01 --lr_att 0.01 --layer_norm 1 --dev 0 
+python3 -u node_class_jaccard.py --data cornell --epoch 100 --mod_w 0.5 --layer 3 --w_att 0.001 --w_fc2 0.0 --w_fc1 0.001 --dropout 0.7 --lr_fc 0.01 --lr_att 0.01 --layer_norm 1 --dev 0 
